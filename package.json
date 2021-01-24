@@ -2,9 +2,11 @@
   "name": "test-software-engineer",
   "version": "1.0.0",
   "description": "ComparaOnline Software Engineer Test",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha spec/*.js"
+    "test": "set TS_NODE_PROJECT='tscconfig.testing.json' mocha -r ts-node/register spec/**/*.spec.ts",
+    "start": "tsc && node --experimental-specifier-resolution=node dist/index.js",
+    "after-30-days": "npm run start"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,14 @@
   },
   "homepage": "https://github.com/alan-lopez22/comparaonline-test.git#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "typescript": "^4.1.3"
   }
 }

@@ -60,3 +60,5 @@ Thumbs.db
 # Visual Code Studio
 /.vscode
 package-lock.json
+dist
+dist/*
