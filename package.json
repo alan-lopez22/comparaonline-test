@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comparaonline/test-software-engineer.git"
+    "url": "git+https://github.com/alan-lopez22/comparaonline-test.git.git"
   },
   "keywords": [
     "comparaonline",
@@ -19,9 +19,9 @@
   "author": "ComparaOnline",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/comparaonline/test-software-engineer/issues"
+    "url": "https://github.com/alan-lopez22/comparaonline-test.git/issues"
   },
-  "homepage": "https://github.com/comparaonline/test-software-engineer#readme",
+  "homepage": "https://github.com/alan-lopez22/comparaonline-test.git#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
