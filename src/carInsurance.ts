@@ -22,7 +22,7 @@ export class CarInsurance {
         const coverage = coverageFactory.createCoverage(product.name);
         coverage.updatePrice(product);
       } catch (error) {
-        console.log(error);
+        throw error;
       }
     }
 

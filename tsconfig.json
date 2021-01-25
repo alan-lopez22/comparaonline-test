@@ -9,7 +9,7 @@
         "downlevelIteration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "module": "ES2020",
+        "module": "CommonJS",
         "moduleResolution": "node",
         "importHelpers": true,
         "target": "es6",

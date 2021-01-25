@@ -2,10 +2,9 @@
   "name": "test-software-engineer",
   "version": "1.0.0",
   "description": "ComparaOnline Software Engineer Test",
-  "type": "module",
   "scripts": {
-    "test": "set TS_NODE_PROJECT='tscconfig.testing.json' mocha -r ts-node/register spec/**/*.spec.ts",
-    "start": "tsc && node --experimental-specifier-resolution=node dist/index.js",
+    "test": "mocha -r ts-node/register spec/**/*.spec.ts",
+    "start": "tsc && node dist/index.js",
     "after-30-days": "npm run start"
   },
   "repository": {
